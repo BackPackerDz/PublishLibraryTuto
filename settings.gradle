@@ -1,0 +1,5 @@
+rootProject.name = "PublishLibraryTuto"
+include ':app'
+include ':my-android-lib-1'
+include ':my-java-library'
+include ':my-android-lib-2'
