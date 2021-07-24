@@ -28,7 +28,7 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-subprojects {g
+subprojects {
     apply plugin: "maven-publish"
     project.afterEvaluate {
         if (!plugins.hasPlugin("android")) {
